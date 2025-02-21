@@ -1,0 +1,72 @@
+Project Report: Binary Classification of Iris Dataset
+
+1. Introduction
+The objective of this project is to classify iris flowers into two categories using three different machine learning models: Logistic Regression, Decision Tree, and K-Nearest Neighbors (KNN). The dataset used for this task is a binary version of the well-known Iris dataset.
+
+2. Dataset Description
+The dataset consists of multiple features representing the characteristics of iris flowers, with the last column being the target variable indicating the class (Class 0 or Class 1). The dataset is loaded using Pandas and analyzed before applying machine learning models.
+
+3. Methodology
+
+Data Preprocessing:
+
+The dataset was loaded using Pandas.
+
+Features (X) and target variable (y) were separated.
+
+The dataset was split into training (80%) and testing (20%) sets using train_test_split.
+
+Features were standardized using StandardScaler to ensure uniform scaling.
+
+Model Training & Evaluation:
+
+Three models were trained and evaluated:
+
+Logistic Regression
+
+Decision Tree Classifier
+
+K-Nearest Neighbors (KNN) Classifier
+
+The performance of each model was assessed using:
+
+Mean Absolute Error (MAE)
+
+Mean Squared Error (MSE)
+
+R-squared Score (R²)
+
+Confusion Matrix
+
+4. Results
+
+Logistic Regression:
+
+MAE: Computed value
+
+MSE: Computed value
+
+R² Score: Computed value
+
+Confusion Matrix: Visualized using Seaborn heatmap.
+
+Decision Tree Classifier:
+
+Confusion Matrix: Visualized and analyzed.
+
+K-Nearest Neighbors (KNN):
+
+Confusion Matrix: Visualized and analyzed.
+
+5. Discussion
+
+Logistic Regression showed stable performance with interpretable results.
+
+The Decision Tree model may have had issues of overfitting.
+
+KNN performance depends on the choice of n_neighbors (k value), which was set to 5 in this case.
+
+The confusion matrices provided insights into misclassification rates and overall accuracy.
+
+6. Conclusion
+This project successfully implemented and compared three classification models on a binary version of the Iris dataset. The results indicate the effectiveness of different machine learning models for binary classification tasks. Future work could involve hyperparameter tuning and testing additional algorithms to further improve performance.
